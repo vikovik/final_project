@@ -1,0 +1,29 @@
+// Name: Viktoriia Kovinskaia
+// Seneca Student ID: 110461217
+// Seneca email: vkovinskaia@myseneca.ca
+// Date of completion: November 29, 2022
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+This final project was like a combination of all the skills acquired during the OOP345 course like it was with
+the final project for OOP244 course. Therefore, it was not chance to practice new skill like while doing
+workshops but more like a honing existing skills. While working on this project I had some troubles that I
+finally was able to figure out how to solve them. Firs of all, while doing the last (third) milestone I needed
+to change the CustomerOrder.cpp file because I forgot to put the reference in 1-argument constructor in the
+parameter CustomerOrder::CustomerOrder(const std::string& str) while doing 2nd milestone. I didn't noticed it 
+before and because of it I had some issues while doing 3d milestone only. Also I have had to add break to the
+for loop in the first nested if statement in fillItem() function because without it my output in "Filling Orders"
+section seemed like:
+Line Manager Iteration: 1
+Line Manager Iteration: 2
+    Filled Chris S., Bedroom [Bed]
+    Filled Chris S., Bedroom [Bed]
+    Filled Chris S., Bedroom [Bed]
+    Filled Chris S., Bedroom [Bed]
+    Filled Cornel B., 1-Room Home Office [Desk]
+and I didn't figured out how to fix it without adding break. I also noticed it while working on 3d milestone
+only. Next, it was a bit hard to work on LineManager module because firstly I tried to use wile and for loops
+in functions (except 2-argument constructor) and found that because of it my code was much longer and I had
+so many errors, that is why I decided to use STL algorithms whenever it is possible.
+
